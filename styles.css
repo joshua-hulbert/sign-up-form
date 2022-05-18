@@ -7,7 +7,6 @@ body {
     margin: 0;
 }
 
-
 .container {
     display: flex;
 }
@@ -22,16 +21,26 @@ body {
     font-weight: 800;
 }
 
+.small-text {
+    font-size: 22px;
+    font-family: sans-serif;
+    font-weight: 600;
+    padding-top: 20px;
+}
+
 .top-panel {
     background-color: #F9FAFBff;
     padding-left: 60px;
     padding-right: 240px;
-    padding-top: 240px;
-    padding-bottom: 60px;
+    padding-top: 160px;
+    padding-bottom: 30px;
 }
 
 .bottom-panel {
     background-color: #F9FAFBff;
+    padding-left: 60px;
+    padding-top: 40px;
+    box-shadow: inset 0px 2px 2px lightgray;
 }
 
 .para1 {
@@ -68,4 +77,39 @@ input:focus {
 
 .left-input {
     margin-right: 100px;
+}
+
+button {
+    background-color: #596D48;
+    color: white;
+    font-size: 18px;
+    font-weight: 900;
+    border-radius: 12px;
+    border: none;
+    width: 260px;
+    height: 60px;
+}
+
+.odin-logo {
+    max-width: 85%;
+    max-height: 85%;
+    opacity: 1;
+}
+
+.odin {
+    color: white;
+    font-family: norse-bold;
+    font-size: 100px;
+    opacity: 1;
+}
+
+.logo {
+    position: absolute;
+    height: 200px;
+    width: 35%;
+    background: rgba(0, 0, 0, 0.45);
+    top: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
